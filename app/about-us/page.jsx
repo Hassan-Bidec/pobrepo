@@ -58,7 +58,7 @@ export async function generateMetadata() {
 }
 
 // -------------------------------------------
-// AboutPage component (default export)
+// AboutPage component {default export}
 // -------------------------------------------
 export default async function AboutPage() {
   const about = await getAboutData();
